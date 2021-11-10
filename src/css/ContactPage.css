@@ -1,0 +1,159 @@
+/* Css for contact section */
+.contact {
+  width: 100%;
+  height: 55rem;
+  background: #F2F9F8;
+}
+
+.contact__title {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #000;
+  text-align: center;
+  padding: 3rem 0 4rem;
+}
+
+.contact__desc {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #777777;
+  padding-bottom: 3rem;
+}
+
+/* contact Inner part */
+.contact__inner {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+/* contact Social part */
+.contact__social {
+  width: 30%;
+  padding: 0 0 2rem;
+}
+
+.contact__social h3 {
+  font-size: 4rem;
+  color: #70b9b0;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.contact__social p {
+  font-size: 1.6rem;
+  text-align: justify;
+  line-height: 1;
+  color: #777777;
+  padding-bottom: 1rem;
+}
+
+.contact__icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact__social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+  border: 1px solid rgba(112, 185, 176, 0.85);
+  border-radius: 50%;
+  background: #fff;
+  font-size: 2rem;
+  transition: all 0.5s ease;
+}
+
+.contact__social a i {
+  color: #70b9b0;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+
+.contact__social a:hover {
+  background: #70b9b0;
+  color: #fff;
+}
+
+.contact__social a:hover i {
+  color: #fff;
+}
+
+/* contact Address part */
+.contact__address {
+  width: 25%;
+  padding: 0 9rem 0 6rem;
+}
+
+.contact__address-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.contact__address-item i {
+  color: #70b9b0;
+  font-size: 4rem;
+}
+
+.contact__address-item p {
+  font-size: 1.6rem;
+  color: #777777;
+  padding: 1rem 0rem 2rem 1rem;
+  line-height: 1.4;
+}
+
+.contact__address-item--map,
+.contact__address-item--phone {
+  padding-left: 1rem;
+}
+
+.contact__address-item--map p,
+.contact__address-item--phone p {
+  padding-left: 2rem;
+}
+
+/* contact Form part */
+.contact__form {
+  width: 40%;
+}
+
+.contact__form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+
+.contact__form form input,
+.contact__form form textarea {
+  padding: 1rem;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.contact__form form textarea {
+  height: 10rem;
+}
+
+.contact__form form button {
+  align-self: center;
+  padding: 1rem 2rem;
+  color: #fff;
+  background: #70b9b0;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.contact__form form button:hover {
+  background: #86cec5;
+}

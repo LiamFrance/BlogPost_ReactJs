@@ -1,0 +1,66 @@
+
+.btn__logout:hover{
+  background:#095248;
+}
+.members__item {
+  width: 32.5%;
+  background: #ffffff;
+  box-shadow: 9px 9px 18px #e0e0e0,
+    -9px -9px 18px #ffffff;
+  text-align: center;
+  padding: 3rem 0;
+  margin: auto;
+}
+
+.members__avatar {
+  width: 50%;
+  padding: 2rem 0;
+  border-radius: 50%;
+}
+
+.members__name {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.members__position {
+  font-size: 1.4rem;
+  color: #555;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.members__intro {
+  font-size: 1.4rem;
+  color: #999;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.members__social i {
+  color: #70b9b0;
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.members__social i:hover {
+  color: #069e8a;
+}
+.btn__logout{
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+
+  background: #069e8a;
+  margin: 2rem auto;;
+  color: white;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

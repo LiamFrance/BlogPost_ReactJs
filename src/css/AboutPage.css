@@ -1,0 +1,76 @@
+/* css for section - about us */
+.about-us {
+  background: #fff;
+  margin-top: 10rem;
+}
+
+.about-us__title h2 {
+  font-family: Lato;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 300;
+  margin: 5rem 0rem;
+}
+
+.about-us__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+.about-us__content {
+  width: calc(50% - 3rem);
+}
+
+.about-us__image {
+  width: calc(50% - 3rem);
+  object-fit: cover;
+}
+
+.about-us__image img {
+  max-width: 100%;
+}
+
+.about-us__content h3 {
+  color: #777777;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+#about-us__content--paragraph1 {
+  font-size: 1.6rem;
+  color: #777777;
+  font-style: italic;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.about-us__content ul {
+  padding-bottom: 2rem;
+}
+
+.about-us__content ul li {
+  font-size: 1.6rem;
+  color: #777777;
+  font-weight: 300;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  position: relative;
+}
+
+.about-us__content ul li.about-us__content--icon::before {
+  content: "";
+  position: absolute;
+  background: url("../images/success-icon.png") no-repeat;
+  background-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  left: 0;
+}
+
+#about-us__content--paragraph2 {
+  font-size: 1.6rem;
+  color: #777777;
+  font-weight: 300;
+}

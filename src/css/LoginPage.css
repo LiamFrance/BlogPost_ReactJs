@@ -1,0 +1,18 @@
+.LoginPage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 60rem;
+}
+form.Loginpage-form{
+  width: 50rem;
+  font-size: 1.5rem;
+}
+.form-input{
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.btn-submit{
+  font-size: 1.5rem;
+}

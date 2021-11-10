@@ -1,0 +1,131 @@
+/* header */
+.Header{
+  width: 100%;
+  height: 50rem;
+  background: url("../images/bg-index.jpg") no-repeat bottom center fixed ;
+  background-size: cover;
+  position: relative;
+}
+.Header::before{
+  content: "";
+  position: absolute;
+  background-color: rgba(129, 129, 129, 0.747);
+  inset: 0px;
+}
+.Wrapper--header{
+  position: absolute;
+  inset: 0px;
+}
+.Header__top{
+  height: 5rem;
+  margin-top: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header__logo--img{
+  width: 15rem;
+}
+.Header__menu ul{
+  width: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header__menu ul li a{
+  font-weight:800;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.Header__menu ul li a:hover{
+  color: rgb(10, 127, 196);
+}
+.Header__search{
+  width: 40rem;
+  height: 4rem;
+  background: #fff;
+  padding: 0.8rem;
+  float: right;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header__search--input{
+  width: 35rem;
+  height: 2.5rem;
+  padding-left: 5px;
+  border: 1px solid rgba(185, 184, 184, 0.774);
+  border-radius: 1rem;
+}
+.Header__search--icon{
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgba(160, 160, 160, 0.644);
+  cursor: pointer;
+}
+.Header__search--icon:hover{
+  background-color: rgba(34, 34, 34, 0.644);
+}
+.Header__search--searching{
+  color: rgba(164, 165, 165, 0.651);
+  display: none;
+  transition: 0.3s;
+}
+
+.Header__warning{
+  width: 25rem;
+  clear: both;
+  float: right;
+  margin-right: 3rem;
+  margin-top: 1rem;
+
+  background: rgb(219, 153, 153);
+  padding: 0.8rem;
+  color: red;
+  font-weight: 600;
+  font-size: 1.2rem;
+
+  transition: 0.5s;
+  border-radius: 1rem;
+  display:none;
+  position: relative;
+}
+.Header__warning::before{
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 10px solid rgb(219, 153, 153);
+  position: absolute;
+  top: -9px;
+  left: 5px;
+}
+.Header__title{
+  clear: both;
+  text-align: center;
+  font-size: 5rem;
+  color: #fff;
+  margin-top: 12rem;
+}
+.Header__sub-title{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+.showing{
+  display: block;
+ }
+/*End Header*/

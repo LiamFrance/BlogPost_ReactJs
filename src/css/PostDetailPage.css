@@ -1,0 +1,8 @@
+.Blog-Post__title--detail{
+  font-size: 3rem;
+  cursor: pointer;
+  color: #000;
+  text-transform: uppercase;
+  transition: 0.5s;
+  text-align: justify;
+}
